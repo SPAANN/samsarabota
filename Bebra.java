@@ -31,10 +31,22 @@ public class Main
 		    System.out.println("Не равно");
 		} 
 		
+		//6
+		int sum=0;
+		System.out.println("Введите число");
+		int umn = s.nextInt();
+		System.out.println("Введите степень");
+		int st = s.nextInt();
+		for (int i = 0; i<st; i++)
+		{
+		    sum += umn;
+		}
+		System.out.println(sum)
+		
 		
 		//8
 
-        
+        System.out.println("Введите температуру");
         int temper = s.nextInt();
         System.out.println((temper-32)*5/9);
         //9
@@ -72,6 +84,28 @@ public class Main
             System.out.println("А может и не может");
         }
 
-
+	/*	//3
+		int[] newarr;
+		int maxi = 0 ;
+		int mini = 999;
+		System.out.println("Число ячеек");
+	    int mass = s.nextInt();
+	    newarr = new int[mass];
+	    for (int i = 0; i<mass; i++)
+	   {
+	    System.out.println("Введите число #" + i);
+	    if (newarr[i]>newarr[i-1])
+	    {
+	        maxi = newarr[i];
+	        
+	    } else if (newarr[i]<newarr[i-1])
+	    {
+	        mini = newarr[i];
+	    }
+	   }
+	   
+	   System.out.println(maxi);
+	   System.out.println(mini);*/
+	}
 
 }
