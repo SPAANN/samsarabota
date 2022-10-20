@@ -84,14 +84,14 @@ public class Main
             System.out.println("А может и не может");
         }
 
-	/*	//3
-		int[] newarr;
-		int maxi = 0 ;
-		int mini = 999;
-		System.out.println("Число ячеек");
-	    int mass = s.nextInt();
-	    newarr = new int[mass];
-	    for (int i = 0; i<mass; i++)
+		//3
+	 int[] newarr;
+	 int maxi = 0 ;
+	 int mini = 999;
+	 System.out.println("Число ячеек");
+	 int mass = s.nextInt();
+	 newarr = new int[mass];
+	 for (int i = 0; i<mass; i++)
 	   {
 	    System.out.println("Введите число #" + i);
 	    if (newarr[i]>newarr[i-1])
@@ -105,7 +105,7 @@ public class Main
 	   }
 	   
 	   System.out.println(maxi);
-	   System.out.println(mini);*/
+	   System.out.println(mini);
 	}
 
 }
